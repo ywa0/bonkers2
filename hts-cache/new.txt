@@ -1,0 +1,8 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+21:06:59	145/145	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2006%20Jun%202025%2004:06:58%20GMT	https://bonkersgame.xyz/robots.txt		(from )
+21:06:59	126435/126435	---MCZ	200	added ('OK')	text/html	etag:W/%221ede3-19708b99ec0%22	https://bonkersgame.xyz/	C:/My%20Web%20Sites/bonkers2/bonkersgame.xyz/index.html	(from )
+21:06:59	134766/134766	---M-Z	200	added ('OK')	application/javascript	etag:%2264cb132e-7693%22	https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js	C:/My%20Web%20Sites/bonkers2/cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js	(from https://bonkersgame.xyz/)
+21:07:00	64649/64649	---M--	200	added ('OK')	image/png	etag:W/%22fc89-19708b99ec0%22	https://bonkersgame.xyz/character.png	C:/My%20Web%20Sites/bonkers2/bonkersgame.xyz/character.png	(from https://bonkersgame.xyz/)
+21:07:00	173/173	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2006%20Jun%202025%2004:07:00%20GMT	https://bonkersgame.xyz/Failed%20to%20load%20character.png	C:/My%20Web%20Sites/bonkers2/bonkersgame.xyz/Failed%20to%20load%20character.png	(from https://bonkersgame.xyz/)
+21:07:00	43266/43266	---M--	200	added ('OK')	image/png	etag:W/%22a902-19708b99ec0%22	https://bonkersgame.xyz/bat.png	C:/My%20Web%20Sites/bonkers2/bonkersgame.xyz/bat.png	(from https://bonkersgame.xyz/)
+21:07:00	167/167	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2006%20Jun%202025%2004:07:00%20GMT	https://bonkersgame.xyz/Failed%20to%20load%20bat.png	C:/My%20Web%20Sites/bonkers2/bonkersgame.xyz/Failed%20to%20load%20bat.png	(from https://bonkersgame.xyz/)
