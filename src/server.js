@@ -1,8 +1,9 @@
-// server.js
+// src/server.js  (Updated)
 
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
+const path = require('path'); // <-- ADD THIS LINE
 
 const app = express();
 const server = http.createServer(app);
@@ -15,8 +16,8 @@ const io = socketIo(server, {
 
 const PORT = process.env.PORT || 3000;
 
-// Serve the index.html file and any other static assets in the folder
-app.use(express.static(__dirname));
+// Serve all static files (like index.html, images) from the 'home' folder
+app.use(express.static(path.join(__dirname, '..', 'home'))); // <-- THIS LINE IS UPDATED
 
 // --- Game Constants (should match client-side) ---
 const WORLD_WIDTH = 1200 * 4;
